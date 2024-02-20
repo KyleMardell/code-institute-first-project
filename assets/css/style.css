@@ -27,6 +27,11 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
+/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -59,7 +64,6 @@ header a {
 }
 
 /* Navbar styles with dropdown toggle */
-
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -87,7 +91,7 @@ nav {
 /* Main content */
 main {
 
-    /* make main element take up any surplus space to push footer down */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -118,7 +122,6 @@ main {
 }
 
 /* Reasons content */
-
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -150,7 +153,7 @@ main {
     width: 90vw;
     height: 90vw;
     margin-bottom: 20px;
-    /* makes the square image into a circle */
+    /* Makes the square image into a circle */
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
@@ -165,7 +168,7 @@ main {
 /* Meetup times section */
 #times {
     background: url(../images/dublin-city.webp) no-repeat center center / cover;
-    /* handles responsivity without the need for a media query */
+    /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
 }
@@ -179,17 +182,16 @@ main {
     Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
-    /* creates a grid of meetup time divs over the background image */
+    /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
 }
 
 #times h3 {
-    /* override the heading colour set in general styles */
+    /* Override the heading colour set in general styles */
     color: #fafafa;
 }
 
 /* Footer */
-
 #social-networks {
     text-align: center;
     padding: 20px 0;
