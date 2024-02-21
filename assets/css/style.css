@@ -204,8 +204,7 @@ main {
     line-height: 0;
 }
 
-/* Signup page form */
-
+/* Signup form */
 #signup {
     background: url("../images/signup-image.webp") no-repeat center center / cover;
     background-size: cover;
@@ -337,6 +336,29 @@ main {
     #photos {
         column-count: 3;
     }
+
+    /* Signup form */
+    #dignup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        max-width: 400px;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
